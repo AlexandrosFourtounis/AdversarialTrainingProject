@@ -1,2 +1,26 @@
 .DS_Store
 ._*
+
+# Python environments and caches
+.venv/
+venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Downloaded data, training runs, and large model checkpoints
+/data/
+/output/
+/experiments/
+*.pth
+*.pt
+*.ckpt
+*.log
+
+# Local editor settings
+.idea/
+.vscode/

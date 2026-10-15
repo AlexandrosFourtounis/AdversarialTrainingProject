@@ -1,0 +1,17 @@
+{
+  "epsilon_analysis": {
+    "0.00784313725490196": 41.85,
+    "0.01568627450980392": 36.4,
+    "0.023529411764705882": 31.46,
+    "0.03137254901960784": 26.69
+  },
+  "attack_success_analysis": {
+    "total_samples": 10000,
+    "clean_correct": 7644,
+    "clean_accuracy": 76.44,
+    "adv_correct": 3640,
+    "adv_accuracy": 36.4,
+    "successful_attacks": 4459,
+    "attack_success_rate": 58.333333333333336
+  }
+}
